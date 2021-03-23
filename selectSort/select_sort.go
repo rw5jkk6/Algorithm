@@ -7,7 +7,7 @@ func main(){
 	len_data := len(data)
     for i := 0; i < len_data; i++{
 		tmp := i
-		for j := 0; j+1 < len_data; j++{
+		for j := 0; j < len_data-1 ; j++{
 			if data[j] > data[tmp]{
 				tmp = j
 			}
