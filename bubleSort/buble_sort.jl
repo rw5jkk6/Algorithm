@@ -1,4 +1,14 @@
-errorになる
+x = [4, 1, 3, 2]
+
+for i in 1:4
+    for j in 1:4 - 1
+        if x[j] > x[j+1]
+            x[j], x[j+1] = x[j+1], x[j]
+        end
+    end
+end
+
+println(x)
 
 # list = [4, 1, 3, 2]
 
