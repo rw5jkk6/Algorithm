@@ -1,7 +1,8 @@
-## データ構造
+## データ構造(Python)
 - List
-  - stack(LIFO)
+  - Stack(LIFO)
   - Queue(FIFO)
+  - 優先度Queue
 - Set
 - Tuple
 - Dict
