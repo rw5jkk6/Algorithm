@@ -4,7 +4,7 @@ import (
    "fmt"
 )
 
-const n1 = 100000000
+const n1 = 10000000
 
 func sum(nl []int) int{
    sum := 0
